@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIT Projects Showcase</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    body {
+      background: linear-gradient(to right, #cae0fa, #d1fff0);
+      padding: 20px;
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .custom-tabs-pills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      border-radius: 8px;
+      padding: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .custom-card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+      background-color: #fff;
+    }
+
+    .custom-tabs-pills .nav-tabs,
+    .custom-tabs-pills .nav-pills {
+      width: 50%;
+    }
+
+    .custom-tabs-pills .tab-content {
+      width: 100%;
+      text-align: left;
+      margin-top: 20px;
+    }
+
+    .custom-card h4,
+    .custom-card p,
+    .custom-card h5,
+    .custom-card ol,
+    .custom-card ul {
+      text-align: left;
+    }
+
+    .card-sdp {
+      background-color: #ffc107;
+    }
+
+    .card-edi {
+      background-color: #007bff;
+      color: #fff;
+    }
+
+    .card-dt {
+      background-color: #28a745;
+      color: #fff;
+    }
+
+    .card-course-projects {
+      background-color: #dc3545;
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="header">
+      <h1>Vishwakarma Institute of Technology</h1>
+      <h3>THIRD YEAR SYLLABUS</h3>
+    </div>
+
+    <div class="custom-tabs-pills">
+      <ul class="nav nav-tabs" id="myTabs">
+        <li class="nav-item">
+          <a class="nav-link active" id="sdp-tab" data-toggle="tab" href="#sdp">SDAM</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="edi-tab" data-toggle="tab" href="#edi">EDI</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="dt-tab" data-toggle="tab" href="#dt">DAA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="course-projects-tab" data-toggle="pill" href="#course-projects">WT</a>
+        </li>
+      </ul>
+
+      <ul class="nav nav-pills ml-auto" id="myPills">
+        <li class="nav-item">
+          <a class="nav-link active" id="sdp-pill" data-toggle="pill" href="#sdp">SDAM</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="edi-pill" data-toggle="pill" href="#edi">EDI</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="dt-pill" data-toggle="pill" href="#dt">DAA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="course-projects-pill" data-toggle="pill" href="#course-projects">WT</a>
+        </li>
+      </ul>
+
+      <div class="tab-content mt-3">
+        <div class="tab-pane fade show active" id="sdp">
+          <div class="custom-card card-sdp">
+            <h4>Software Design and Modelling</h4>
+            <h5>Course Prerequisites:</h5>
+            <p>Include your prerequisites here.</p>
+            <h5>Course Objectives:</h5>
+            <ol>
+              <li>To summarize capabilities and impact of software development process models and justify process maturity through application of Software Engineering principles and practices.</li>
+              <li>To differentiate feasible and competing system requirements, indicating correct real-world problem scope and preparing stepwise system conceptual model.</li>
+              <li>To formulate system specifications by analyzing user-level tasks and compose software artifacts using agile principles, practices, and scrum framework.</li>
+              <li>To compose system analysis and design specifications using UML diagrams.</li>
+              <li>To design a system architecture and map it with a suitable architectural style.</li>
+              <li>To comprehend the nature of design patterns and apply these patterns in system design.</li>
+            </ol>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="edi">
+          <div class="custom-card card-edi">
+            <h4>Engineering Design and Innovation (EDI)</h4>
+            <p>Information about EDI project goes here.</p>
+            <h5>Course Prerequisites:</h5>
+            <p>Problem Based Learning</p>
+            <h5>Course Objectives:</h5>
+            <ol>
+              <li>To develop critical thinking and problem-solving ability by exploring and proposing solutions to realistic/social problems.</li>
+              <li>To evaluate alternative approaches and justify the use of selected tools and methods.</li>
+              <li>To emphasize learning activities that are long-term, interdisciplinary, and student-centric.</li>
+              <li>To engage students in rich and authentic learning experiences.</li>
+              <li>To provide every student the opportunity to get involved either individually or as a group to develop team skills and learn professionalism.</li>
+              <li>To develop an ecosystem to promote entrepreneurship and research culture among the students.</li>
+            </ol>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="dt">
+          <div class="custom-card card-dt">
+            <h4>Design and Analysis of Algorithms</h4>
+            <p>Information about DT project goes here.</p>
+            <h5>Course Objectives:</h5>
+            <ul>
+              <li>Students will gain understanding of asymptotic notations and will be able to apply suitable mathematical techniques to find asymptotic time and space complexities of algorithms.</li>
+              <li>Students will develop the ability to formulate computational problems in the abstract and mathematically precise manner.</li>
+              <li>Students will gain understanding of different algorithm design paradigms such as divide and conquer, dynamic programming, greedy, backtracking and will apply suitable paradigm for designing algorithms for computational problems.</li>
+              <li>Students will develop understanding of notions of NP-hardness and NP-completeness and their relationship with the intractability of decision problems.</li>
+              <li>Students will design randomized, approximation algorithms for some computational problems.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="course-projects">
+          <div class="custom-card card-course-projects">
+            <h4>Web Technology</h4>
+            <p>Information about course projects goes here.</p>
+            <h5>Course Objectives:</h5>
+            <ul>
+              <li>To describe most commonly used HTML5 and CSS3 tags and attributes for website development.</li>
+              <li>To associate event handling with HTML5 forms and CSS3 using JavaScript as a front-end technology for website development.</li>
+              <li>To extend HTML5 and CSS3 and JavaScript front end technologies with PHP and MySQL as a server side and backend technologies for website development.</li>
+              <li>To simplify website development using REST API and Spring Boot as server-side technologies.</li>
+              <li>To build single page applications using REACT as a reusable UI component technology as clientside technology.</li>
+              <li>To assemble REACT as a front-end technology and Node JS as a server-side technology to develop enterprise applications.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
